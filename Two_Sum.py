@@ -1,8 +1,10 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        nums_hash = {}  
+        nums_h={}
         for i in range(len(nums)):
-            complement = target - nums[i]
-            if complement in nums_hash:
-                return [nums_hash[complement], i]
-            nums_hash[nums[i]] = i  
+            seen=target-nums[i]
+            if seen in nums_h:
+                return[nums_h[seen],i]
+            nums_h[nums[i]]=i
+        
+      

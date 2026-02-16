@@ -1,6 +1,6 @@
 class Solution(object):
     def missingNumber(self,nums):
-        n=len(nums)
-        result=n*(n+1)//2
+        l=len(nums)
+        result=l*(l+1)//2
         return result-sum(nums)
 

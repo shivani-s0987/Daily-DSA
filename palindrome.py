@@ -1,10 +1,9 @@
 class Solution(object):
-    def palindrome(self,nums):
-        x=nums
+    def palindrome(self,x):
+        num=x
         result=0
-        while nums>0:
-            digit=nums%10
-            result=result*10+digit
-            nums=nums//10
-        return x==result
-            
+        while num>0:
+            ld=num%10
+            result=result*10+id
+            num=num//10
+        return num==result

@@ -1,10 +1,10 @@
 class Solution(object):
-    def almstrong(self,n):
-        x=n
-        total=0
-        nod=len(str(n))
+    def almstrong(self,num):
+        x=num
+        sum=0
+        noi=len(str(num))
         while x>0:
             ld=x%10
-            total=total+(ld**nod)
+            sum=sum+(ld**noi)
             x=x//10
-        return total==n
+        return sum==num

@@ -9,4 +9,15 @@ class Solution(object):
                     count+=1
         return count
              
+# to get less timecomplexity
+hash_list=[0]*11
+for i in n:
+    hash_list[i]+=1
+    for j in m:
+        if j<10 and j>=0:
+            print(hash_list[j])
+            print(0)
+        else:
+            print(0)
+    print(hash_list[j])
 

@@ -8,3 +8,11 @@ class Solution(object):
             sum=sum+(ld**noi)
             x=x//10
         return sum==num
+    
+#another solution
+n=5873
+num=n
+while num>0:
+    lastdigit=num%10
+    print(lastdigit)
+    num=num//10

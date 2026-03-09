@@ -1,14 +1,11 @@
-#20
-from cmath import sqrt
-
-
-class Solution(object):
-    def divisors(self,n):
+import math
+class Solution(object)
+    def divisor(self,n):
         result=[]
         for i in range(1,n+1):
             if n%i==0:
                 result.append(i)
-        return result
+            return result
 
 #36/6  #25 root of number 
 class Solution(object):

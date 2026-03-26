@@ -1,5 +1,5 @@
 import math
-class Solution(object)
+class Solution(object):
     def divisor(self,n):
         result=[]
         for i in range(1,n+1):
